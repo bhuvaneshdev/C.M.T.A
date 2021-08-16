@@ -167,7 +167,7 @@ while True:
       		try:
         
         			print('	jarvis:searching....')
-        			app_id = '8X6934-62AK2LTJPY'
+        			app_id = 'Your app id'
         			client = wolframalpha.Client(app_id) 
         			res = client.query(query)
         			answer = next(res.results).text
